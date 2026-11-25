@@ -24,3 +24,8 @@ if temprature > 30 :
     print("It's warm")
     print("Drink Water!!")
 print("It's ok")
+
+age = 22
+
+message = "Eligible" if age >= 12 else "Not Eligible"
+print(message)
